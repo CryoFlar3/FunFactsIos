@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		946F7F551ADB68A500CDE5F7 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7F541ADB68A500CDE5F7 /* FactBook.swift */; };
 		948F08CF1AD32FDA0054DFCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F08CE1AD32FDA0054DFCC /* AppDelegate.swift */; };
 		948F08D11AD32FDA0054DFCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F08D01AD32FDA0054DFCC /* ViewController.swift */; };
 		948F08D41AD32FDA0054DFCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948F08D21AD32FDA0054DFCC /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		946F7F541ADB68A500CDE5F7 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		948F08C91AD32FDA0054DFCC /* FunFactsIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFactsIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948F08CD1AD32FDA0054DFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948F08CE1AD32FDA0054DFCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				948F08D51AD32FDA0054DFCC /* Images.xcassets */,
 				948F08D71AD32FDA0054DFCC /* LaunchScreen.xib */,
 				948F08CC1AD32FDA0054DFCC /* Supporting Files */,
+				946F7F541ADB68A500CDE5F7 /* FactBook.swift */,
 			);
 			path = FunFactsIos;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946F7F551ADB68A500CDE5F7 /* FactBook.swift in Sources */,
 				948F08D11AD32FDA0054DFCC /* ViewController.swift in Sources */,
 				948F08CF1AD32FDA0054DFCC /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +409,7 @@
 				948F08EA1AD32FDB0054DFCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		948F08EB1AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFactsIosTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				948F08ED1AD32FDB0054DFCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
