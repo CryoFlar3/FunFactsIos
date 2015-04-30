@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		945797491AF1832B00D5368C /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945797481AF1832B00D5368C /* ColorWheel.swift */; };
 		946F7F551ADB68A500CDE5F7 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F7F541ADB68A500CDE5F7 /* FactBook.swift */; };
 		948F08CF1AD32FDA0054DFCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F08CE1AD32FDA0054DFCC /* AppDelegate.swift */; };
 		948F08D11AD32FDA0054DFCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948F08D01AD32FDA0054DFCC /* ViewController.swift */; };
@@ -27,15 +28,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		945797481AF1832B00D5368C /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 		946F7F541ADB68A500CDE5F7 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
-		948F08C91AD32FDA0054DFCC /* FunFactsIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFactsIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948F08C91AD32FDA0054DFCC /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948F08CD1AD32FDA0054DFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948F08CE1AD32FDA0054DFCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		948F08D01AD32FDA0054DFCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		948F08D31AD32FDA0054DFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		948F08D51AD32FDA0054DFCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		948F08D81AD32FDA0054DFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		948F08DE1AD32FDB0054DFCC /* FunFactsIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948F08DE1AD32FDB0054DFCC /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		948F08E31AD32FDB0054DFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		948F08E41AD32FDB0054DFCC /* FunFactsIosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsIosTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,8 +72,8 @@
 		948F08CA1AD32FDA0054DFCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				948F08C91AD32FDA0054DFCC /* FunFactsIos.app */,
-				948F08DE1AD32FDB0054DFCC /* FunFactsIosTests.xctest */,
+				948F08C91AD32FDA0054DFCC /* FunFacts.app */,
+				948F08DE1AD32FDB0054DFCC /* FunFactsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +88,7 @@
 				948F08D71AD32FDA0054DFCC /* LaunchScreen.xib */,
 				948F08CC1AD32FDA0054DFCC /* Supporting Files */,
 				946F7F541ADB68A500CDE5F7 /* FactBook.swift */,
+				945797481AF1832B00D5368C /* ColorWheel.swift */,
 			);
 			path = FunFactsIos;
 			sourceTree = "<group>";
@@ -118,9 +121,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		948F08C81AD32FDA0054DFCC /* FunFactsIos */ = {
+		948F08C81AD32FDA0054DFCC /* FunFacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 948F08E81AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFactsIos" */;
+			buildConfigurationList = 948F08E81AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFacts" */;
 			buildPhases = (
 				948F08C51AD32FDA0054DFCC /* Sources */,
 				948F08C61AD32FDA0054DFCC /* Frameworks */,
@@ -130,14 +133,14 @@
 			);
 			dependencies = (
 			);
-			name = FunFactsIos;
+			name = FunFacts;
 			productName = FunFactsIos;
-			productReference = 948F08C91AD32FDA0054DFCC /* FunFactsIos.app */;
+			productReference = 948F08C91AD32FDA0054DFCC /* FunFacts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		948F08DD1AD32FDB0054DFCC /* FunFactsIosTests */ = {
+		948F08DD1AD32FDB0054DFCC /* FunFactsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 948F08EB1AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFactsIosTests" */;
+			buildConfigurationList = 948F08EB1AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFactsTests" */;
 			buildPhases = (
 				948F08DA1AD32FDB0054DFCC /* Sources */,
 				948F08DB1AD32FDB0054DFCC /* Frameworks */,
@@ -148,9 +151,9 @@
 			dependencies = (
 				948F08E01AD32FDB0054DFCC /* PBXTargetDependency */,
 			);
-			name = FunFactsIosTests;
+			name = FunFactsTests;
 			productName = FunFactsIosTests;
-			productReference = 948F08DE1AD32FDB0054DFCC /* FunFactsIosTests.xctest */;
+			productReference = 948F08DE1AD32FDB0054DFCC /* FunFactsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +167,7 @@
 				TargetAttributes = {
 					948F08C81AD32FDA0054DFCC = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = B7P9VSF249;
 					};
 					948F08DD1AD32FDB0054DFCC = {
 						CreatedOnToolsVersion = 6.2;
@@ -171,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 948F08C41AD32FDA0054DFCC /* Build configuration list for PBXProject "FunFactsIos" */;
+			buildConfigurationList = 948F08C41AD32FDA0054DFCC /* Build configuration list for PBXProject "FunFacts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +188,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				948F08C81AD32FDA0054DFCC /* FunFactsIos */,
-				948F08DD1AD32FDB0054DFCC /* FunFactsIosTests */,
+				948F08C81AD32FDA0054DFCC /* FunFacts */,
+				948F08DD1AD32FDB0054DFCC /* FunFactsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -218,6 +222,7 @@
 				946F7F551ADB68A500CDE5F7 /* FactBook.swift in Sources */,
 				948F08D11AD32FDA0054DFCC /* ViewController.swift in Sources */,
 				948F08CF1AD32FDA0054DFCC /* AppDelegate.swift in Sources */,
+				945797491AF1832B00D5368C /* ColorWheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +239,7 @@
 /* Begin PBXTargetDependency section */
 		948F08E01AD32FDB0054DFCC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 948F08C81AD32FDA0054DFCC /* FunFactsIos */;
+			target = 948F08C81AD32FDA0054DFCC /* FunFacts */;
 			targetProxy = 948F08DF1AD32FDB0054DFCC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -340,9 +345,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FunFactsIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FunFacts;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +359,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FunFactsIos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FunFacts;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -370,8 +383,8 @@
 				);
 				INFOPLIST_FILE = FunFactsIosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFactsIos.app/FunFactsIos";
+				PRODUCT_NAME = FunFactsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacts.app/FunFacts";
 			};
 			name = Debug;
 		};
@@ -385,15 +398,15 @@
 				);
 				INFOPLIST_FILE = FunFactsIosTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFactsIos.app/FunFactsIos";
+				PRODUCT_NAME = FunFactsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacts.app/FunFacts";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		948F08C41AD32FDA0054DFCC /* Build configuration list for PBXProject "FunFactsIos" */ = {
+		948F08C41AD32FDA0054DFCC /* Build configuration list for PBXProject "FunFacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				948F08E61AD32FDB0054DFCC /* Debug */,
@@ -402,7 +415,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		948F08E81AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFactsIos" */ = {
+		948F08E81AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				948F08E91AD32FDB0054DFCC /* Debug */,
@@ -411,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		948F08EB1AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFactsIosTests" */ = {
+		948F08EB1AD32FDB0054DFCC /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				948F08EC1AD32FDB0054DFCC /* Debug */,

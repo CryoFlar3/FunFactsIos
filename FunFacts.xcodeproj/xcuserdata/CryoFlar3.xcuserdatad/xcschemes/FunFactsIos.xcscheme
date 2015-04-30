@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "948F08C81AD32FDA0054DFCC"
-               BuildableName = "FunFactsIos.app"
-               BlueprintName = "FunFactsIos"
-               ReferencedContainer = "container:FunFactsIos.xcodeproj">
+               BuildableName = "FunFacts.app"
+               BlueprintName = "FunFacts"
+               ReferencedContainer = "container:FunFacts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "948F08DD1AD32FDB0054DFCC"
-               BuildableName = "FunFactsIosTests.xctest"
-               BlueprintName = "FunFactsIosTests"
-               ReferencedContainer = "container:FunFactsIos.xcodeproj">
+               BuildableName = "FunFactsTests.xctest"
+               BlueprintName = "FunFactsTests"
+               ReferencedContainer = "container:FunFacts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "948F08DD1AD32FDB0054DFCC"
-               BuildableName = "FunFactsIosTests.xctest"
-               BlueprintName = "FunFactsIosTests"
-               ReferencedContainer = "container:FunFactsIos.xcodeproj">
+               BuildableName = "FunFactsTests.xctest"
+               BlueprintName = "FunFactsTests"
+               ReferencedContainer = "container:FunFacts.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "948F08C81AD32FDA0054DFCC"
-            BuildableName = "FunFactsIos.app"
-            BlueprintName = "FunFactsIos"
-            ReferencedContainer = "container:FunFactsIos.xcodeproj">
+            BuildableName = "FunFacts.app"
+            BlueprintName = "FunFacts"
+            ReferencedContainer = "container:FunFacts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "948F08C81AD32FDA0054DFCC"
-            BuildableName = "FunFactsIos.app"
-            BlueprintName = "FunFactsIos"
-            ReferencedContainer = "container:FunFactsIos.xcodeproj">
+            BuildableName = "FunFacts.app"
+            BlueprintName = "FunFacts"
+            ReferencedContainer = "container:FunFacts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "948F08C81AD32FDA0054DFCC"
-            BuildableName = "FunFactsIos.app"
-            BlueprintName = "FunFactsIos"
-            ReferencedContainer = "container:FunFactsIos.xcodeproj">
+            BuildableName = "FunFacts.app"
+            BlueprintName = "FunFacts"
+            ReferencedContainer = "container:FunFacts.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
